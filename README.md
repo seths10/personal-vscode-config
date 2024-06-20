@@ -1,1 +1,3 @@
-# personal-vccode-config
+> [!NOTE]
+> 
+> This is my vscode setup
