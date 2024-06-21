@@ -39,7 +39,6 @@ update Settings.JSON
 ```
 
 <br/>
-<br/>
 
 > [!NOTE]
 > 
