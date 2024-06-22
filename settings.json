@@ -54,7 +54,7 @@
         // ".inline-tabs-placeholder": "display: none !important",
         ".split-view-view .visible": "background-color: #1e1f2b !important",
         ".has-composite-bar": "background: #1e1f2b !important",
-        ".pane-body": "padding: 0 10px !important",
+        ".pane-body": "padding: 0 15px !important",
     },
 
     // Editor
