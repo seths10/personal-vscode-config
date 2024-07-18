@@ -1,6 +1,6 @@
 <div align="center"><a name="readme-top"></a>
 
-<img height="500" width="100%" src="https://github.com/seths10/personal-vscode-config/assets/59029978/3cca62b5-94d0-4605-9826-c9cd79d2ee8a" style="object-fit: cover; border-radius: 8px;" >
+<img height="600" width="100%" src="https://github.com/seths10/personal-vscode-config/assets/59029978/3cca62b5-94d0-4605-9826-c9cd79d2ee8a" style="object-fit: cover; border-radius: 8px;" >
 
 <br/>
 
