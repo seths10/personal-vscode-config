@@ -69,8 +69,8 @@
   "workbench.startupEditor": "none",
   "editor.stickyScroll.enabled": false,
   "editor.accessibilitySupport": "off",
-  "breadcrumbs.filePath": "off",
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.enabled": true,
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
