@@ -23,38 +23,38 @@
   "window.titleBarStyle": "custom",
   "editor.scrollbar.horizontal": "auto",
 
-  // APC
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": false,
-    "itemSize": 28
-  },
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 12,
-      "y": 10
-    }
-  },
-  "apc.statusBar": {
-    "position": "editor-bottom",
-    "height": 22,
-    "fontSize": 11
-  },
-  "apc.stylesheet": {
-    // "*": "font-family: Dank mono;",
-    // ".sidebar > .composite": "height: 12px !important",
-    // ".title-label": "display: none !important",
-    // ".title-actions": "display: none !important",
-    // ".tabs-and-actions-container > .editor-actions": "display: none !important",
-    // ".titlebar-center": "display: none !important",
-    // ".titlebar-right": "display: none !important",
-    // ".titlebar-left": "display: none !important",
-    // ".inline-tabs-placeholder": "display: none !important",
-    ".split-view-view .visible": "background-color: #1e1f2b !important",
-    ".has-composite-bar": "background: #1e1f2b !important",
-    ".pane-body": "padding: 0 10px !important"
-  },
+  // // APC
+  // "apc.activityBar": {
+  //   "position": "bottom",
+  //   "hideSettings": false,
+  //   "itemSize": 28
+  // },
+  // "apc.electron": {
+  //   "titleBarStyle": "hiddenInset",
+  //   "trafficLightPosition": {
+  //     "x": 12,
+  //     "y": 10
+  //   }
+  // },
+  // "apc.statusBar": {
+  //   "position": "editor-bottom",
+  //   "height": 22,
+  //   "fontSize": 11
+  // },
+  // "apc.stylesheet": {
+  //   // "*": "font-family: Dank mono;",
+  //   // ".sidebar > .composite": "height: 12px !important",
+  //   // ".title-label": "display: none !important",
+  //   // ".title-actions": "display: none !important",
+  //   // ".tabs-and-actions-container > .editor-actions": "display: none !important",
+  //   // ".titlebar-center": "display: none !important",
+  //   // ".titlebar-right": "display: none !important",
+  //   // ".titlebar-left": "display: none !important",
+  //   // ".inline-tabs-placeholder": "display: none !important",
+  //   ".split-view-view .visible": "background-color: #1e1f2b !important",
+  //   ".has-composite-bar": "background: #1e1f2b !important",
+  //   ".pane-body": "padding: 0 10px !important"
+  // },
 
   // Differentiate between files of same name (Next.js)
   "workbench.editor.customLabels.patterns": {
@@ -69,8 +69,8 @@
   "workbench.startupEditor": "none",
   "editor.stickyScroll.enabled": false,
   "editor.accessibilitySupport": "off",
-  "breadcrumbs.filePath": "on",
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "off",
+  "breadcrumbs.enabled": false,
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
@@ -89,33 +89,15 @@
   "workbench.activityBar.location": "top",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.tokenColorCustomizations": {
-    "[Monokai Pro (Filter Octagon)]": {
-      "keywords": "#7ea4df",
-      "functions": "#71ddf0",
-      // "types": "#1fa8d8",
-      // "comments": "#727272",
-      "strings": "#29a792",
-      "textMateRules": [
-        {
-          "scope": "comment",
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": "entity.name.tag",
-          "settings": {
-            "foreground": "#29a79d"
-          }
-        },
-        {
-          "scope": ["keyword.operator"],
-          "settings": {
-            "foreground": "#7ea4df"
-          }
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+        "settings": {
+          "foreground": "#19354900"
         }
-      ]
-    }
+      }
+    ]
   },
   "cSpell.language": "en,lorem,en-GB,en-US",
   "cSpell.enableFiletypes": ["!postgres"],
@@ -220,40 +202,43 @@
   // Neovim
 
 
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
-    },
-    {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
-    },
-    {
-      "before": ["K"],
-      "commands": ["lineBreakInsert"],
-      "silent": true
-    }
-  ],
-  "vim.leader": "<space>",
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false
-  },
+  // "vim.easymotion": true,
+  // "vim.incsearch": true,
+  // "vim.useSystemClipboard": true,
+  // "vim.useCtrlKeys": true,
+  // "vim.hlsearch": true,
+  // "vim.insertModeKeyBindings": [
+  //   {
+  //     "before": ["j", "j"],
+  //     "after": ["<Esc>"]
+  //   }
+  // ],
+  // "vim.normalModeKeyBindingsNonRecursive": [
+  //   {
+  //     "before": ["<leader>", "d"],
+  //     "after": ["d", "d"]
+  //   },
+  //   {
+  //     "before": ["<C-n>"],
+  //     "commands": [":nohl"]
+  //   },
+  //   {
+  //     "before": ["K"],
+  //     "commands": ["lineBreakInsert"],
+  //     "silent": true
+  //   }
+  // ],
+  // "vim.leader": "<space>",
+  // "vim.handleKeys": {
+  //   "<C-a>": false,
+  //   "<C-f>": false
+  // },
 
-  "extensions.experimental.affinity": {
-    "vscodevim.vim": 1
-  },
-  "git.enableSmartCommit": true
+  // "extensions.experimental.affinity": {
+  //   "vscodevim.vim": 1
+  // },
+  "git.enableSmartCommit": true,
+  "supermaven.enable": {
+    "*": false
+  }
 }
